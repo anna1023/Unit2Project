@@ -20,13 +20,9 @@ public class LinearEquationRunner {
         int y2 = Integer.parseInt(y22);
         System.out.println(x2);
         System.out.println(y2);
-        System.out.println("\nThe two points are: "+coord1+" and "+coord2);
 
         LinearEquation Linear = new LinearEquation(x1,x2,y1,y2);
-        System.out.println("The equation of the line between these points is: y = "+Linear.equation());
-        System.out.println("The slope of this line is: "+Linear.slope());
-        System.out.println("The y-intercept of the line is: "+Linear.yinter());
-        System.out.println("The distance between the two points is: "+Linear.distance());
+        System.out.println(Linear.lineInfo());
 
         System.out.println("\nEnter a value for x: ");
         int newx = scan.nextInt();
