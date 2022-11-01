@@ -25,6 +25,6 @@ public class LinearEquationRunner {
         System.out.println(Linear.lineInfo());
 
         System.out.println("\nEnter a value for x: ");
-        int newx = scan.nextInt();
+        int newx = scan.nextInt(); //finish thisss
     }
 }

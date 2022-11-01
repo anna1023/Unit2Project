@@ -13,7 +13,7 @@ public class LinearEquation {
 
   public double slope() {
       double slope1 = (double)((y2-y1)/(x2-x1));
-      return roundedToHundredth(slope1);
+      return roundedToHundredth(slope1); //check??
   }
 
   public double yIntercept() {
